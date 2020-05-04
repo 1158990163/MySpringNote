@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="mysqlUser" class="com.lty.Dao.UserMysqlmp" name="mu mu1 mu2"/>
+    <bean id="oracleUser" class="com.lty.Dao.UserOracleImpl"/>
+    <bean id="defultUser" class="com.lty.Dao.UserImp"/>
+
+    <bean id="serverUser" class="com.lty.pojo.UseServerImpl">
+        <property name="user" ref="mu1"/>
+    </bean>
+
+
+</beans>
