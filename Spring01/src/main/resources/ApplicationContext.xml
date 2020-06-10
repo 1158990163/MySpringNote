@@ -8,8 +8,20 @@
     <bean id="oracleUser" class="com.lty.Dao.UserOracleImpl"/>
     <bean id="defultUser" class="com.lty.Dao.UserImp"/>
 
+
     <bean id="serverUser" class="com.lty.pojo.UseServerImpl">
         <property name="user" ref="mu"/>
+    </bean>
+
+    <bean id="userOwnServer" class="com.lty.pojo.UseOwnServerImpl">
+        <constructor-arg name="dbName" value="mysql"/>
+<!--        1-->
+        <!--        <property name="user" ref="mongodbUser"/>-->
+
+<!--        2-->
+        <property name="user">
+            <bean id="mongodbUser" class="com.lty.Dao.UserMongodbImpl"/>
+        </property>
     </bean>
 
 
