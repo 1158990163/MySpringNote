@@ -18,9 +18,14 @@ public class AOPageProxy {
         System.out.println("before+++++++++++++++");
     }
 
-    @After("execution(* com.lty.AOC.anno.AOPage.add(..))")
-    public void after() {
-        System.out.println("after+++++++++++++++");
+//    @After("execution(* com.lty.AOC.anno.AOPage.add(..))")
+//    public void after() {
+//        System.out.println("after+++++++++++++++");
+//    }
+
+    @After("execution(* com.lty.AOC.anno.AOPage.hashCode())")
+    public void after(){
+        System.out.println("HashCode前置执行");
     }
 
     @Around("execution(* com.lty.AOC.anno.AOPage.add(..))")

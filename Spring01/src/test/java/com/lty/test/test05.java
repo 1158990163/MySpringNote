@@ -9,7 +9,9 @@ public class test05 {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("beanAop.xml");
         AOPage aOPage = context.getBean("aopage", AOPage.class);
+        System.out.println(aOPage.hashCode());
         aOPage.add();
+
 
     }
 }

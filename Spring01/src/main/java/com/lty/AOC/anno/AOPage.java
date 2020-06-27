@@ -6,7 +6,15 @@ import org.springframework.stereotype.Component;
 
 @Component("aopage")
 public class AOPage {
-    public void add(){
+    public void add() {
         System.out.println("add>>>>>");
+    }
+
+    @Override
+    public int hashCode() {
+        return 0;
+//        352102761     10
+//        352102752     1
+//        352102751     0
     }
 }
