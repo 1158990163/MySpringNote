@@ -15,7 +15,7 @@ public class RestFull {
     public String test1(@PathVariable int a, @PathVariable int b, Model model) {
         int s = a + b;
         model.addAttribute("args", "GET结果是" + s);
-        return "Rest";
+        return "forward:/hello";
     }
     @PostMapping(value = "/Rest/{a}/{b}")
     public String test2(@PathVariable int a, @PathVariable int b, Model model) {

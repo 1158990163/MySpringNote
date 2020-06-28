@@ -14,5 +14,6 @@
     SpringMVC注解开发
     <br>
     ${mvc}
+    ${args}
 </body>
 </html>
