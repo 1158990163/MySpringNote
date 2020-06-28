@@ -10,7 +10,9 @@
 <head>
     <title>hello</title>
 </head>
-<body>
+<>
     SpringMVC注解开发
+    <br>
+    ${mvc}
 </body>
 </html>
