@@ -12,6 +12,7 @@
     <mvc:default-servlet-handler/>
     <!--    注解驱动，annotation-driven自动将DefaultAnnotationHandlerMapping和AnnotationMethodHandlerAdapter实例注入-->
     <mvc:annotation-driven/>
+
     <!--    视图解析器-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="internalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/"/>
