@@ -12,5 +12,6 @@
 </head>
 <body>
     hello SpringMVC
+    ${msg}
 </body>
 </html>
