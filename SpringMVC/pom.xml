@@ -11,6 +11,7 @@
     <modules>
         <module>MVC01</module>
         <module>MVC02</module>
+        <module>MVC-AJAX</module>
     </modules>
 
 
