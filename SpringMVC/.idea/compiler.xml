@@ -11,6 +11,7 @@
         <module name="MVC01" />
         <module name="MVC-Intercepter" />
         <module name="MVC-AJAX" />
+        <module name="MVC-file" />
       </profile>
     </annotationProcessing>
   </component>
