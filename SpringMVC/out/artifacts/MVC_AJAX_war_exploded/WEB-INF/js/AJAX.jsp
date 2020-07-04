@@ -17,6 +17,7 @@
                 data:"aaa",
                 success:function ss() {
                     alert("dadadada")
+                    alert("${pageContext.request.contextPath}")
                 }
             })
         }

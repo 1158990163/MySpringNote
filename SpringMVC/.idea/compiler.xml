@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="MVC02" />
         <module name="MVC01" />
+        <module name="MVC-Intercepter" />
         <module name="MVC-AJAX" />
       </profile>
     </annotationProcessing>

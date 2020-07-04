@@ -12,6 +12,7 @@
         <module>MVC01</module>
         <module>MVC02</module>
         <module>MVC-AJAX</module>
+        <module>MVC-Intercepter</module>
     </modules>
 
 
